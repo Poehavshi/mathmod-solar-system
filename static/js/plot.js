@@ -1,6 +1,7 @@
 const submitBtn = document.querySelector('.submit-btn');
 submitBtn.addEventListener('click', function (event) {
     const n = parseInt(document.querySelector('#n').value);
+    const k = parseInt(document.querySelector('#n').value);
     const s = parseInt(document.querySelector('#s').value);
     const d = parseInt(document.querySelector('#d').value);
     const schema = document.querySelector('input[name="radio"]:checked').value;
@@ -13,6 +14,7 @@ submitBtn.addEventListener('click', function (event) {
 
     const data = {
         n: n,
+        k: k,
         s: s,
         d: d,
         schema: schema,
