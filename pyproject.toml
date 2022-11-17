@@ -6,6 +6,8 @@ authors = ["arkadi <cotniko-arkadi@yandex.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+Flask = "^2.2.2"
+numpy = "^1.23.4"
 
 [tool.poetry.dev-dependencies]
 
